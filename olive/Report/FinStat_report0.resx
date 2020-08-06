@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="jsonDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="customJsonSource1.Json" xml:space="preserve">
+    <value>[{"AC001":"0000455839","AC003":"赵宝峰","AC015":"0000022191","POSITION":"祥十三区44#","AC020":0.0,"AC022":32220.0,"FA200":"2020-07-25T08:43:13","AC010":"0000000232","RG003":"祥十三区"},{"AC001":"0000455841","AC003":"张庆君","AC015":"0000005139","POSITION":"福十二区78#","AC020":39800.0,"AC022":35820.0,"FA200":"2020-07-25T09:36:49","AC010":"0000000120","RG003":"福十二区"},{"AC001":"0000455843","AC003":"孙军生","AC015":"0000022176","POSITION":"祥十三区29#","AC020":0.0,"AC022":32220.0,"FA200":"2020-07-25T10:18:58","AC010":"0000000232","RG003":"祥十三区"},{"AC001":"0000455846","AC003":"陈启龙","AC015":"0000020540","POSITION":"天池A区606#","AC020":19800.0,"AC022":17820.0,"FA200":"2020-07-26T08:41:34","AC010":"0000000216","RG003":"天池A区"},{"AC001":"0000455848","AC003":"李春来","AC015":"0000022082","POSITION":"祥十二区47#","AC020":0.0,"AC022":32220.0,"FA200":"2020-07-26T09:24:02","AC010":"0000000231","RG003":"祥十二区"},{"AC001":"0000455850","AC003":"赵宝范","AC015":"0000029270","POSITION":"地球B176#","AC020":16800.0,"AC022":15120.0,"FA200":"2020-07-26T09:29:30","AC010":"0000000278","RG003":"地球B"},{"AC001":"0000455911","AC003":"柳晓晨","AC015":"0000004890","POSITION":"福十一区47#","AC020":39800.0,"AC022":35820.0,"FA200":"2020-07-28T08:39:20","AC010":"0000000119","RG003":"福十一区"},{"AC001":"0000455919","AC003":"毕建华","AC015":"0000028149","POSITION":"骨灰墙一区81#","AC020":0.0,"AC022":2800.0,"FA200":"2020-07-28T09:56:40","AC010":"0000000272","RG003":"骨灰墙一区"},{"AC001":"0000455942","AC003":"姜微微","AC015":"0000024127","POSITION":"天王区236#","AC020":29800.0,"AC022":26820.0,"FA200":"2020-07-29T10:12:00","AC010":"0000000247","RG003":"天王区"},{"AC001":"0000455945","AC003":"李刚","AC015":"0000029266","POSITION":"地球B172#","AC020":16800.0,"AC022":16800.0,"FA200":"2020-07-30T10:28:57","AC010":"0000000278","RG003":"地球B"},{"AC001":"0000455948","AC003":"睢慧香","AC015":"0000010054","POSITION":"荷花园B327#","AC020":0.0,"AC022":8800.0,"FA200":"2020-07-31T07:54:36","AC010":"0000000154","RG003":"荷花园B"},{"AC001":"0000455952","AC003":"李大伟","AC015":"0000025691","POSITION":"土星1区217#","AC020":35800.0,"AC022":32220.0,"FA200":"2020-07-31T08:46:04","AC010":"0000000263","RG003":"土星1区"},{"AC001":"0000455955","AC003":"刘伟","AC015":"0000027488","POSITION":"水星区59#","AC020":15000.0,"AC022":13500.0,"FA200":"2020-07-31T10:14:23","AC010":"0000000268","RG003":"水星区"},{"AC001":"0000455957","AC003":"荆海楠","AC015":"0000022288","POSITION":"瑞二区1#","AC020":78800.0,"AC022":66980.0,"FA200":"2020-07-31T10:21:48","AC010":"0000000234","RG003":"瑞二区"}]</value>
+  </data>
+</root>
